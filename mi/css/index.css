@@ -1,0 +1,683 @@
+/*@import url(./base.css);*/
+.topBar{
+    height: 40px;
+    background: #333333;
+}
+.content{
+    width: 677px;
+    height: 40px;
+    margin: 0 auto;
+}
+.barNav{
+    /*width: 677px;*/
+    height: 40px;
+    float: left;
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.barNav a , .barInfo a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.barNav a:hover , .barInfo a:hover{
+    color: #ffffff;
+}
+.barCart{
+    float: right;
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+.barCart a{
+    color: #b0b0b0;
+}
+.barCart:hover{
+    background: white;
+}
+.barCart a:hover{
+    color: #ff6700;
+}
+.barInfo{
+    float: right;
+    /*width: 142px;*/
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    /*background: #16b0dc;*/
+    padding: 0 10px;
+}
+/*topBar*/
+
+.header{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header .logo{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+.header .logo a img{
+    display: block;
+    width: 55px;
+    height: 55px;
+}
+.header .navlist{
+    float: left;
+    width: 870px;
+    height: 100px;
+}
+.navspace{
+    position: relative;
+    float: left;
+    width: 172px;
+    height: 100px;
+}
+.navitem pre{
+    position: relative;
+    width: 698px;
+    height: 100px;
+    float: left;
+}
+.navitem a{
+    position: relative;
+    font-size: 16px;
+    line-height: 100px;
+    color: #333;
+    font-family: 微软雅黑;
+}
+.navitem a:hover{
+    color: #ffa100;
+}
+.search{
+    width: 294px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+}
+.search .text{
+    display: inline;
+    width: 232px;
+    height: 50px;
+    line-height: 100px;
+    border: 1px solid grey;
+    text-align: right;
+    position: relative;
+    float: left;
+    margin-top: 25.5px;
+}
+.text .miba{
+    width: 70px;
+    height: 20px;
+    background: #eee;
+    float: right;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.text .mix{
+    width: 40px;
+    height: 20px;
+    background: #eee;
+    float: right;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+a .miba:hover{
+    color: #ffa100;
+}
+a .mix:hover{
+    color: #ffa100;
+}
+.search .tubiao{
+    width: 58px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid grey;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25.5px;
+    text-align: center;
+    font-size: 12px;
+}
+.search .tubiao img{
+    margin-top: 25px;
+}
+.tubiao i:hover{
+    color: #ffa100;
+}
+.tubiao i img{
+    width: 52px;
+    height: 50px;
+}
+/*header*/
+
+.banner{
+    height: 460px;
+    position: relative;
+    margin: 0 auto;
+}
+.imgBox{
+    width: 1226px;
+    height: 460px;
+}
+.imgBox li , .imgBox li a , .imgBox li a img{
+    display: block;
+    width: 1226px;
+    height: 460px;
+}
+.imgBox li{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*imgBox*/
+
+ul.asilde{
+    width: 234px;
+    height: 420px;/*460-20*2*/
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding: 20px 0;
+}
+.asilde .asildeList{
+    width: 234px;
+    height: 42px;
+}
+.asildeList a{
+    display: block;
+    width: 174px;/*234-30*2*/
+    height: 42px;
+    padding: 0 30px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.asildeList a:hover{
+    background: #ff6700;
+}
+.asildeList a i{
+    float: right;
+    font-size: 14px;
+}
+/*asilde*/
+/*banner*/
+
+.gun{
+    position: fixed;
+    width: 82px;
+    height: 360px;
+    bottom: 175px;
+    right: 0;
+}
+.yi , .er , .san , .sii{
+    width: 80px;
+    height: 88px;
+    font-size: 14px;
+    text-align: center;
+    color: #757575;
+    border: 1px solid grey;
+    background: white;
+}
+.yi a i{
+    display: block;
+    /*position: relative;*/
+    text-align: center;
+    line-height: 60px;
+    color: #757575;
+    font-size: 30px;
+    padding-top: -30px;
+}
+.yi a:hover{
+    color: #ffa100;
+}
+.yi a i:hover{
+    color: #ffa100;
+}
+.er a i{
+    display: block;
+    /*position: relative;*/
+    text-align: center;
+    line-height: 60px;
+    color: #757575;
+    font-size: 30px;
+    padding-top: -30px;
+}
+.er a:hover{
+    color: #ffa100;
+}
+.er a i:hover{
+    color: #ffa100;
+}
+.san a i{
+    display: block;
+    /*position: relative;*/
+    text-align: center;
+    line-height: 60px;
+    color: #757575;
+    font-size: 30px;
+    padding-top: -30px;
+}
+.san a:hover{
+    color: #ffa100;
+}
+.san a i:hover{
+    color: #ffa100;
+}
+.sii a i{
+    display: block;
+    /*position: relative;*/
+    text-align: center;
+    line-height: 60px;
+    color: #757575;
+    font-size: 30px;
+    padding-top: -30px;
+}
+.sii a:hover{
+    color: #ffa100;
+}
+.sii a i:hover{
+    color: #ffa100;
+}
+.dingbu{
+    width: 80px;
+    height: 88px;
+    font-size: 14px;
+    text-align: center;
+    color: #757575;
+    border: 1px solid grey;
+    background: white;
+    margin-top: 20px;
+}
+.dingbu a i{
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    color: #757575;
+    font-size: 30px;
+}
+.dingbu a:hover{
+    color: #ffa100;
+}
+.dingbu a i:hover{
+    color: #ffa100;
+}
+
+.si{
+    width: 1226px;
+    height: 170px;
+    margin: 135px auto -165px;
+}
+.one{
+    float: left;
+    width: 236px;
+    height: 170px;
+    margin: 0 auto;
+    background: brown;
+}
+.one .liutu li{
+    display: block;
+    position: relative;
+    float: left;
+    width: 76.6px;
+    height: 68px;
+    background: #5f5750;
+    text-align: center;
+    /*line-height: 30px;*/
+    font-size: 12px;
+    padding-top: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.liutu li a{
+    color: rgba(255,255,255,0.7);
+}
+.one .liutu li a i{
+    font-size: 24px;
+    color: rgba(255,255,255,0.7);
+}
+.one .liutu li a i img{
+    display: block;
+    color: rgba(255,255,255,0.7);
+}
+.liutu a:hover , .liutu li a i:hover{
+    color: white;
+}
+.two{
+    float: left;
+    display: block;
+    width: 315px;
+    height: 170px;
+    margin-left: 15px;
+}
+.three{
+    float: left;
+    display: block;
+    width: 315px;
+    height: 170px;
+    margin-left: 15px;
+}
+.four{
+    float: right;
+    display: block;
+    width: 315px;
+    height: 170px;
+    margin-left: 15px;
+}
+.two a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.three a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.four a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.shangou{
+    /*position: relative;*/
+    width: 1226px;
+    height: 58px;
+    margin: 25px auto 5px;
+}
+.title{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.shangou .title .more{
+    position: relative;
+    width: 70px;
+    height: 58px;
+    float: right;
+}
+.more a .left{
+     position: relative;
+     margin: 16px 0 0 0;
+     width: 33px;
+     height: 25px;
+     background: white;
+     line-height: 58px;
+     border: 1px solid grey;
+ }
+.more a:hover{
+    color: #ffa100;
+}
+.left i{
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    display: block;
+}
+.left i img{
+    width: 25px;
+    height: 25px;
+}
+.more a .right{
+    float: right;
+    position: relative;
+    margin: 16px 0 0 0;
+    width: 33px;
+    height: 25px;
+    background: white;
+    line-height: 58px;
+    border: 1px solid grey;
+    margin-top: -27px;
+}
+.more a:hover{
+    color: #ffa100;
+}
+.right i{
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    display: block;
+}
+.right i img{
+    width: 25px;
+    height: 25px;
+}
+.five{
+    position: relative;
+    display: block;
+    width: 1226px;
+    height: 340px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.content{
+    width: 1226px;
+    height: 340px;
+}
+.first{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 14px 0 0;
+}
+.first a img{
+    width: 234px;
+    height: 340px;
+}
+.second{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0;
+}
+.second a img{
+    width: 234px;
+    height: 340px;
+}
+.third{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 0 0 14px;
+}
+.third a img{
+    width: 234px;
+    height: 340px;
+}
+.fourth{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 0 0 14px;
+}
+.fourth a img{
+    width: 234px;
+    height: 340px;
+}
+.fifth{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 0 0 14px;
+}
+.fifth a img{
+    width: 234px;
+    height: 340px;
+}
+.seventh{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0;
+}
+.seventh a img{
+    width: 234px;
+    height: 340px;
+}
+.eighth{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 0 0 14px;
+}
+.eighth a img{
+    width: 234px;
+    height: 340px;
+}
+.ninth{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 0 0 14px;
+}
+.ninth a img{
+    width: 234px;
+    height: 340px;
+}
+.tenth{
+    float: left;
+    width: 234px;
+    height: 100%;
+    margin: 0 0 0 14px;
+}
+.tenth a img{
+    width: 234px;
+    height: 340px;
+}
+.picture{
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto 40px;
+}
+.picture a img{
+    width: 1226px;
+    height: 120px;
+}
+
+.hui{
+    width: 100%;
+    height: 870px;
+    background: #f5f5f5;
+    padding-top: 22px;
+}
+.zitu{
+    width: 1226px;
+    height: 672px;
+    margin: 0 auto;
+}
+.zitu .title{
+    width: 1226px;
+    height: 58px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+.shu{
+    width: 234px;
+    height: 614px;
+    margin-left: 0;
+}
+.shu img{
+    width: 234px;
+    height: 614px;
+}
+.ba{
+    width: 992px;
+    height: 614px;
+    float: left;
+    margin-left: 234px;
+    margin-top: -614px;
+}
+.youba{
+    width: 978px;
+    height: 614px;
+    margin-left: 14px;
+}
+.shang{
+    width: 978px;
+    height: 300px;
+    margin-bottom: 14px;
+}
+.yione , .yitwo , .yithree{
+    display: inline-block;
+    width: 232px;
+    height: 300px;
+    margin-right: 12px;
+}
+.yifour{
+    display: inline-block;
+    width: 231.5px;
+    height: 300px;
+}
+.yione img{
+    width: 232px;
+    height: 300px;
+}
+.yitwo img{
+    width: 232px;
+    height: 300px;
+}
+.yithree img{
+    width: 232px;
+    height: 300px;
+}
+.yifour img{
+    width: 231.5px;
+    height: 300px;
+}
+.xia{
+    width: 978px;
+    height: 300px;
+}
+.erone , .ertwo , .erthree{
+    display: inline-block;
+    width: 232px;
+    height: 300px;
+    margin-right: 12px;
+}
+.erfour{
+    display: inline-block;
+    width: 231.5px;
+    height: 300px;
+}
+.erone img{
+    width: 232px;
+    height: 300px;
+}
+.ertwo img{
+    width: 232px;
+    height: 300px;
+}
+.erthree img{
+    width: 232px;
+    height: 300px;
+}
+.erfour img{
+    width: 231.5px;
+    height: 300px;
+}
+.chang{
+    width: 1226px;
+    height: 120px;
+    margin: 40px auto 40px;
+}
+.chang a img{
+    width: 1226px;
+    height: 120px;
+}
